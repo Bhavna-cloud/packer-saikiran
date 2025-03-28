@@ -19,11 +19,11 @@
       "source_ami": "{{user `source_ami`}}",
       "instance_type": "{{user `instance_type`}}",
       "ssh_username": "ubuntu",
-      "ami_name": "Saikiran-Pinapathruni-Build-{{isotime | clean_resource_name}}",
+      "ami_name": "Bhavna-Build-{{isotime | clean_resource_name}}",
       "vpc_id": "{{user `vpc_id`}}",
       "subnet_id": "{{user `subnet_id`}}",
       "tags": {
-        "Name": "Saikiran-Pinapathruni-Build-{{isotime | clean_resource_name}}"
+        "Name": "Bhavna-Build-{{isotime | clean_resource_name}}"
       }
     }],
     "provisioners": [{
@@ -33,7 +33,7 @@
         "sudo apt update -y",
         "sudo apt install nginx -y",
         "sudo apt install git -y",
-        "sudo git clone https://github.com/saikiranpi/webhooktesting.git",
+        "sudo git clone https://github.com/Bhavna-cloud/webhooktesting-saikiran.git",
         "sudo rm -rf /var/www/html/index.nginx-debian.html",
         "sudo cp webhooktesting/index.html /var/www/html/index.nginx-debian.html",
         "sudo cp webhooktesting/style.css /var/www/html/style.css",
