@@ -35,9 +35,9 @@
         "sudo apt install git -y",
         "sudo git clone https://github.com/Bhavna-cloud/webhooktesting-saikiran.git",
         "sudo rm -rf /var/www/html/index.nginx-debian.html",
-        "sudo cp webhooktesting/index.html /var/www/html/index.nginx-debian.html",
-        "sudo cp webhooktesting/style.css /var/www/html/style.css",
-        "sudo cp webhooktesting/scorekeeper.js /var/www/html/scorekeeper.js",
+        "sudo cp webhooktesting-saikiran/index.html /var/www/html/index.nginx-debian.html",
+        "sudo cp webhooktesting-saikiran/style.css /var/www/html/style.css",
+        "sudo cp webhooktesting-saikiran/scorekeeper.js /var/www/html/scorekeeper.js",
         "sudo service nginx start",
         "sudo systemctl enable nginx",
         "curl https://get.docker.com | bash"
