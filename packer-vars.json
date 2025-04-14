@@ -1,7 +1,7 @@
 {
-    "aws_access_key": "AKIA4IM3HIDYSGSJHSPJ",
-    "aws_secret_key": "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",
-    "region": "us-east-1",
+    "aws_access_key": "HJHJHJKHKJSAHKJSJK",
+    "aws_secret_key": "HE83920EJ32N3EO",
+    "region": "US-1",
     "source_ami": "ami-084568db4383264d4",
     "instance_type": "t2.micro",
     "vpc_id": "vpc-0a3d31884b36ff653",
